@@ -17,3 +17,11 @@ CREATE TABLE basics.students(
 
     created_at TIMESTAMP DEFAULT NOW()
 );
+
+--Insert some data
+ insert into basics.students(name,email,age)
+ values 
+    ('pradeep','p@gmail.com',23),
+    ('kumar','k@gmail.com',23);
+
+select * from basics.students;
